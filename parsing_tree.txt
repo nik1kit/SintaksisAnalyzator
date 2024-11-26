@@ -1,0 +1,133 @@
+Program
+ Begin
+  PROGRAM  [WordsKey]
+  example  [Id]
+ Descriptions
+  Descr
+   Type
+    INTEGER  [WordsKey]
+   Varlist
+     a  [Id]
+    ,  [Symbols_of_Separating]
+   VarList
+     b  [Id]
+    ,  [Symbols_of_Separating]
+   VarList
+     c  [Id]
+ Descriptions
+  Descr
+   Type
+    INTEGER  [WordsKey]
+   Varlist
+     x  [Id]
+    ,  [Symbols_of_Separating]
+   VarList
+     y  [Id]
+    ,  [Symbols_of_Separating]
+   VarList
+     z  [Id]
+ Descriptions
+  Descr
+   Type
+    INTEGER  [WordsKey]
+   Varlist
+     i  [Id]
+ Descriptions
+  Descr
+   Type
+    INTEGER  [WordsKey]
+   Varlist
+     array  [Id]
+ Operators
+  Op
+   a  [Id]
+   =  [Symbols_of_Operation]
+   Expr
+    SimpleExpr
+     10  [const]
+ Operators
+  Op
+   b  [Id]
+   =  [Symbols_of_Operation]
+   Expr
+    SimpleExpr
+     20  [const]
+ Operators
+  Op
+   x  [Id]
+   =  [Symbols_of_Operation]
+   Expr
+    SimpleExpr
+     5  [const]
+ Operators
+  Op
+   c  [Id]
+   =  [Symbols_of_Operation]
+   Expr
+    SimpleExpr
+     a  [Id]
+     +  [Symbols_of_Operation]
+    SimpleExpr
+     b  [Id]
+     +  [Symbols_of_Operation]
+    SimpleExpr
+     5  [const]
+     -  [Symbols_of_Operation]
+    SimpleExpr
+     x  [Id]
+ Operators
+  Op
+   y  [Id]
+   =  [Symbols_of_Operation]
+   Expr
+    SimpleExpr
+     x  [Id]
+     +  [Symbols_of_Operation]
+    SimpleExpr
+     2  [const]
+ Operators
+  Op
+   z  [Id]
+   =  [Symbols_of_Operation]
+   Expr
+    SimpleExpr
+     y  [Id]
+     -  [Symbols_of_Operation]
+    SimpleExpr
+     2  [const]
+ Operators
+   Op
+    FOR  [WordsKey]
+    i  [Id]
+    =  [Symbols_of_Operation]
+    Expr
+     SimpleExpr
+      1  [Const]
+    TO  [WordsKey]
+    Expr
+     SimpleExpr
+      i  [Const]
+      +  [Symbols_of_Operation]
+      SimpleExpr
+       10  [Const]
+       +  [Symbols_of_Operation]
+       SimpleExpr
+        i  [Const]
+        +  [Symbols_of_Operation]
+        SimpleExpr
+         5  [Const]
+    DO  [WordsKey]
+    Operators
+    Operators
+     Op
+      i   [Id]
+      =  [Symbols_of_Operation]
+      Expr
+       SimpleExpr
+         i  [Id]
+        +  [Symbols_of_Operation]
+       SimpleExpr
+        1  [Id]
+ End
+  END  [WordsKey]
+  example  [Id]
