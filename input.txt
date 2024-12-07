@@ -1,0 +1,13 @@
+PROGRAM example
+    INTEGER  a, b, c 
+    INTEGER  x, y, z
+    INTEGER  i
+    INTEGER  array
+    a = ( 10 )
+    b = 20
+    x = 5
+    c = a + ( b + 5 ) - x 
+    y = x + 2
+    z = y - 2
+    FOR i = 1 TO i + ( 10 + i ) + 5 DO FOR i = 1 TO i + 10 + i + 5 DO  i = i - 1 v = 5 c = ( 52 - Naruto )
+END example
